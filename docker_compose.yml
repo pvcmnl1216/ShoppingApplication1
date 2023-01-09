@@ -1,0 +1,51 @@
+version: "3.9"
+services:
+  productService:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    container_name: product-container
+    networks:
+      - springcloud-product-net
+
+  mysql-user-services:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    container_name: user-container
+    networks:
+      - user-net
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
+  product-auth-service:
+    container_name: product-auth-service
+    build: Customer/
+    networks:
+      - springcloud-product-net
+    ports:
+      - "65101:65101"
+    depends_on:
+      - productService
+    restart: always
+
+  user-auth-service:
+    container_name: user-auth-service
+    build: Demo/
+    networks:
+      - user-net
+    ports:
+      - "8083:8083"
+    depends_on:
+      - mysql-user-services
+    restart: always
+
+networks:
+  springcloud-product-net:
+    driver: bridge
+  user-net:
+    driver: bridge
+
