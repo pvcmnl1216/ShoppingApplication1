@@ -21,6 +21,12 @@
     <module>
       Customer
     </module>
+    <module>
+      ShoppingApi
+    </module>
+    <module>
+      EreukaServer
+    </module>
   </modules>
 
   <name>ShoppingApplication</name>

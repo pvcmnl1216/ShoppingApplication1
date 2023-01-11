@@ -1,51 +1,63 @@
-version: "3.9"
+version: '3.9'
 services:
-  productService:
-    image: mongo:latest
-    ports:
-      - "27017:27017"
-    container_name: product-container
+  movie-service:
+    image: movie_image
+    container_name: movie-service
+    build: Customer/
+    restart: always
     networks:
-      - springcloud-product-net
+      - my-network
+    ports:
+      - 8081:8081
+    depends_on:
+      - mongoService
+      - apigateway
 
-  mysql-user-services:
-    image: mysql:latest
+
+  mongoService:
+    image: mongo
+    container_name: mongoService
     ports:
-      - "3306:3306"
-    container_name: user-container
+      - 27017:27017
     networks:
-      - user-net
+      - my-network
+
+  authentication-service:
+    image: authentication_image
+    container_name: authentication-service
+    build: Demo/
+    restart: always
+    networks:
+      - my-network
+    ports:
+      - 8084:8084
+    depends_on:
+      - mysqlService
+      - apigateway
+
+
+  mysqlService:
+    image: mysql:latest
+    container_name: mysqlService
+    networks:
+      - my-network
+    ports:
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USERNAME: root
       MYSQL_PASSWORD: root
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
 
-  product-auth-service:
-    container_name: product-auth-service
-    build: Customer/
+  apigateway:
+    container_name: apigateway
+    build: ShoppingApi/
     networks:
-      - springcloud-product-net
+      - my-network
     ports:
-      - "65101:65101"
-    depends_on:
-      - productService
-    restart: always
+      - 9100:9100
 
-  user-auth-service:
-    container_name: user-auth-service
-    build: Demo/
-    networks:
-      - user-net
-    ports:
-      - "8083:8083"
-    depends_on:
-      - mysql-user-services
-    restart: always
 
 networks:
-  springcloud-product-net:
+  my-network:
     driver: bridge
-  user-net:
-    driver: bridge
-
