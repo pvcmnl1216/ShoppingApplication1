@@ -12,3 +12,4 @@ public class EreukaServerApplication {
         SpringApplication.run(EreukaServerApplication.class, args);
     }
 }
+
