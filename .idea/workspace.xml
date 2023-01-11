@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91635b88-7b4b-4c69-a771-618d1b61941f" name="Changes" comment="final commit">
-      <change afterPath="$PROJECT_DIR$/EreukaServer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/src/main/java/com/niit/EreukaServer/EreukaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EreukaServer/src/test/java/com/niit/EreukaServer/EreukaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/src/main/java/com/niit/ShoppingApi/ShoppingApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/src/main/java/com/niit/ShoppingApi/config/RouteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShoppingApi/src/test/java/com/niit/ShoppingApi/ShoppingApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker_compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker_compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="91635b88-7b4b-4c69-a771-618d1b61941f" name="Changes" comment="final commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673269554929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final commit">
+      <created>1673424412175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673424412175</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
