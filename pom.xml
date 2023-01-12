@@ -16,13 +16,13 @@
 
   <modules>
     <module>
-      Demo
+      AuthService
     </module>
     <module>
-      Customer
+      ProductService
     </module>
     <module>
-      ShoppingApi
+      ApiGateway
     </module>
     <module>
       EreukaServer
