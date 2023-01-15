@@ -5,6 +5,7 @@
  */
 package com.niit.Customer.controller;
 
+import com.niit.Customer.domain.Product;
 import com.niit.Customer.domain.User;
 import com.niit.Customer.exception.UserAlreadyExistException;
 import com.niit.Customer.exception.UserNotFoundException;
@@ -20,6 +21,7 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerController {
 
     CustomerService customerService;
+    private ResponseEntity<?> responseEntity;
     @Autowired
     public CustomerController( CustomerService customerService) {
         this.customerService = customerService;
@@ -29,9 +31,23 @@ public class CustomerController {
     public ResponseEntity<?> add(@RequestBody User user) throws UserAlreadyExistException {
         return new ResponseEntity<>(customerService.addCustomer(user), HttpStatus.OK);
     }
-    @GetMapping("/custom")
-    public ResponseEntity<?> getAll(){
-        return new ResponseEntity<>(customerService.getAll(),HttpStatus.OK);
+
+
+    @PostMapping("/custom/{email}")
+    public ResponseEntity<?> saveUserMovieToList(@RequestBody Product product, @PathVariable String email) throws UserNotFoundException {
+        try {
+            responseEntity = new ResponseEntity<>(customerService.saveUserMovieToList(product, email), HttpStatus.CREATED);
+        }
+        catch (UserNotFoundException e)
+        {
+            throw new UserNotFoundException();
+        }
+        return responseEntity;
+    }
+    @GetMapping("/custom/{email}")
+    public ResponseEntity<?> getAll(@PathVariable String email) throws UserAlreadyExistException {
+
+        return new ResponseEntity<>(customerService.getAll(email),HttpStatus.OK);
     }
     @DeleteMapping("/customs/{lastNama}")
     public ResponseEntity<?> delete(@PathVariable String lastNama) throws UserNotFoundException {

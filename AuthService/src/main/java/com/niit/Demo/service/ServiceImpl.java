@@ -61,7 +61,7 @@ public class ServiceImpl implements UserInterface {
     public User loginCheck(String email, String password) {
         if (userRepository.findById(email).isPresent()) {
             User user = userRepository.findById(email).get();
-            if (user.getPassWord().equals(password)) {
+            if (user.getEmail().equals(email)) {
                 return user;
             } else {
                 return null;

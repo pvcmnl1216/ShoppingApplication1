@@ -27,6 +27,9 @@
     <module>
       EreukaServer
     </module>
+    <module>
+      NotificationService
+    </module>
   </modules>
 
   <name>ShoppingApplication</name>

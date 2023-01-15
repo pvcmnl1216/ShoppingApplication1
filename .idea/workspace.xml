@@ -5,95 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91635b88-7b4b-4c69-a771-618d1b61941f" name="Changes" comment="final commit">
-      <change afterPath="$PROJECT_DIR$/AuthService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/proxy/UserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/NotificationServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/config/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/config/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/domain/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/repository/NotifocatioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/service/INotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/org/niir/NotificationService/service/NotificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/test/java/org/niir/NotificationService/NotificationServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/config/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/config/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e650f73bea14a88d3f83d9e20e7acf8d7393d1e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12149cebba54a75a6b5e48c96c0a3b0aff2c68d7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a9f299492ae209c9193d7b3792bf1478c78933e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39133c4ecbefff8c28207be564d407e088e9c8e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a41c972bd09660b9e5972e2c7a5c474599c14fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45b2e7dddfb4d08885e04337abe0667e5f84b39c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48526516995aea6a4ad3ba3f3ab01caa315ba152" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4920eaade2a226bc8e35c4e8e64fb0375211fe93" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f24302cdf15940d5c9f530bb3a999ca6f9b7b2f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50c3112036fddbf2e47ce7ace1af3cc1534a1051" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50e1f398b5cd1119dd0a16e711ca5a192752570f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/5132d60d17d98044f85ae8a94f54f9ef6dadc0d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/635604fda67e1e2f39ae95233340b2e675f635d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64c066a2b416eedc583121af59863b52a20d9829" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6aff25502bd120a4103189c84b81303993badcf9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e426ea121d2fce8b1ac331c27ac390758cfc31b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71fb65ea66afa386033b389924499c65924d8dc1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d4dadb67f9c5245acd9797caea52e1915f3e8c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e4764d5c21e674b650b580fea0540f639a7816e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/887b8200fd5604ca6d761cf1f3d2e61f661d1c54" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91a35eaa206a63403ee8181ec8c8718d1c8bc048" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a0a713e3461dab6b78c6c85a42ff8fe9306d5df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b04737aa64a58de55192c2271be48431f18e88bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b29f3c20b2120b61f7993dae4964492f54390efa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b54b0bafd4947e2155fa037adf4114df4f610f3f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca7b486f57f389f1b57b122ed2235ac8c1e2e0bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d554dcfe5fdf0f1eb09e83da12b029e0c56ec08e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e45aca3568300b99ed0c9c3aa520c93b98a9f6bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6f3f1021db220c946e0cfa995248546bcb2780f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b656ffccdca76a103ad52ec756c607ab36344a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb1420011f827ef39a295d98723b0f25727adcc2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/exception/UserAlreadyExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/exception/UserAlreadyExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/exception/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/niit/Customer/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/test/java/com/niit/Customer/CustomerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/niit/Customer/CustomerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/test/java/com/niit/Customer/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/niit/Customer/controller/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/test/java/com/niit/Customer/repository/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/niit/Customer/repository/RepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/src/test/java/com/niit/Customer/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/niit/Customer/service/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/service/GenerateToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/service/GenerateToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/service/GenerateTokenImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/service/GenerateTokenImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/service/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/java/com/niit/Demo/service/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/service/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/src/test/java/com/niit/Demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/test/java/com/niit/Demo/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/src/main/java/com/niit/ShoppingApi/ShoppingApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/niit/ShoppingApi/ShoppingApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/src/main/java/com/niit/ShoppingApi/config/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/niit/ShoppingApi/config/RouteConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingApi/src/test/java/com/niit/ShoppingApi/ShoppingApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/test/java/com/niit/ShoppingApi/ShoppingApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuthService/src/main/java/com/niit/Demo/service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/niit/Customer/service/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -150,7 +90,7 @@
       <recent name="C:\Users\Philip Meshach\Backend Projects\ShoppingApplication" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerApplication">
+  <component name="RunManager" selected="Application.NotificationServiceApplication">
     <configuration name="CustomerApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.niit.Customer.CustomerApplication" />
       <module name="ProductService" />
@@ -190,6 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.niir.NotificationService.NotificationServiceApplication" />
+      <module name="NotificationService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.niir.NotificationService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.niit.ShoppingApi.ShoppingApiApplication" />
       <module name="ApiGateway" />
@@ -209,29 +162,20 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker_compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" singleton="false" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="envFilePath" value="" />
-          <option name="sourceFilePath" value="docker_compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Application.NotificationServiceApplication" />
       <item itemvalue="Application.EreukaServerApplication" />
       <item itemvalue="Application.CustomerApplication" />
       <item itemvalue="Application.DemoApplication" />
       <item itemvalue="Application.ShoppingApiApplication" />
-      <item itemvalue="Docker.docker_compose.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomerApplication" />
-        <item itemvalue="Application.EreukaServerApplication" />
-        <item itemvalue="Application.ShoppingApiApplication" />
+        <item itemvalue="Application.NotificationServiceApplication" />
         <item itemvalue="Application.DemoApplication" />
-        <item itemvalue="Docker.docker_compose.yml: Compose Deployment" />
+        <item itemvalue="Application.ShoppingApiApplication" />
+        <item itemvalue="Application.EreukaServerApplication" />
+        <item itemvalue="Application.CustomerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673424868575</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="final commit">
+      <created>1673515819040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673515819040</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

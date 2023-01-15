@@ -22,7 +22,7 @@ public class CustomerApplication {
     public FilterRegistrationBean jwtFilter() {
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean<>();
         filterRegistrationBean.setFilter(new JwtFilter());
-        filterRegistrationBean.addUrlPatterns("/api/v1/*");
+        filterRegistrationBean.addUrlPatterns("/api/v1/custom/*");
         return filterRegistrationBean;
     }
 

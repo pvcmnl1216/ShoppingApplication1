@@ -8,6 +8,7 @@ package com.niit.Customer.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
 import java.util.Objects;
 
 @Document
@@ -17,12 +18,12 @@ public class User {
     private String passWord;
     private String firstName;
     private String lastNama;
-    private Product product;
+    private List<Product> product;
 
     public User() {
     }
 
-    public User(String email, String passWord, String firstName, String lastNama, Product product) {
+    public User(String email, String passWord, String firstName, String lastNama, List<Product> product) {
         this.email = email;
         this.passWord = passWord;
         this.firstName = firstName;
@@ -62,24 +63,22 @@ public class User {
         this.lastNama = lastNama;
     }
 
-    public Product getProduct() {
+    public List<Product> getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
+    public void setProduct(List<Product> product) {
         this.product = product;
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return Objects.equals(email, user.email) && Objects.equals(passWord, user.passWord) && Objects.equals(firstName, user.firstName) && Objects.equals(lastNama, user.lastNama) && Objects.equals(product, user.product);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(email, passWord, firstName, lastNama, product);
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastNama='" + lastNama + '\'' +
+                ", product=" + product +
+                '}';
     }
 }
